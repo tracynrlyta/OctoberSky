@@ -19,7 +19,7 @@ header {
 }
 
 header img {
-    width: 30%; /* Adjust the logo width as needed */
+    width: 50%; /* Adjust the logo width as needed */
 }
 
 .background-image {
@@ -43,7 +43,7 @@ header img {
 .image1 img,
 .image2 img {
     display: block;
-    max-width: 100%; /* Ensure the image doesn't overflow its container */
+    max-width: 50%; /* Ensure the image doesn't overflow its container */
     margin: 0 auto; /* Center the image horizontally */
 }
 
