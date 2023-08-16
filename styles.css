@@ -1,16 +1,16 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: #1258A1;
-    background-image: url('assets/Rectangle\ 1.svg');
-    background-size: cover; 
-    background-repeat: no-repeat;
+    background-image: url("Images/Rectangle 1.svg");
+    background-size: cover;
     background-position: center center;
-    background-blend-mode: multiply; 
+    background-repeat: no-repeat;
+    background-color: #1258A1;
+    background-blend-mode: multiply;
     font-family: "HelveticaNeue", "Helvetica Neue Light", "Helvetica Neue", 
     Helvetica, Arial, "Lucida Grande", sans-serif;
     color: #fff;
-}
+  }
 
 .wrapper{
     margin-left: auto;
@@ -23,29 +23,29 @@ header {
     padding-top: 10px;
 }
 
-/* CSS */
 .header-image {
-    width: 5%; 
+    width: 30%; 
     height: auto; 
     display: block; 
     margin: 0 auto;
 }
 
-
+/* Top right image styles */
 .top-right-image {
     position: fixed;
     top: 0;
     right: 0;
-    width: 30%;
-    z-index: -1; 
+    width: 30%; /* Adjust the image width as needed */
+    z-index: -1;
 }
 
+/* Bottom left image styles */
 .bottom-left-image {
     position: fixed;
     bottom: 0;
     left: 0;
     width: 30%;
-    z-index: -1; 
+    z-index: -1;
 }
 
 main {
@@ -62,64 +62,72 @@ main {
 }
 
 .background-image img {
-    max-width: 20%; 
+    max-width: 15%; 
     height: auto;
     margin: 3px; 
-}
 
+
+/* Text "Marketing & Sales" styles */
 .text1{
     text-align: center;
-    font-size: 2rem; 
+    font-size: 2rem; /* Adjust the font size as needed */
     font-weight: bold;
-    margin-top: 0.25rem; 
+    margin-top: 0.25rem; /* Add spacing between Image 2 and the text */
 }
 
+/* Text "ADVISORY" styles */
 .text2 {
     text-align: center;
-    font-size: 3.5rem; 
+    font-size: 3.5rem; /* Adjust the font size as needed */
     font-weight: bold;
-    margin-top: -0.75rem; 
+    margin-top: -0.75rem; /* Add spacing between "Marketing & Sales" and "ADVISORY" using rem units */
 }
 
+/* Text "We're almost ready, please contact us at:" styles */
 .text3{
     color: #BFD62F;
     text-align: center;
-    font-size: 1rem; 
-    margin-top: 0.5rem; 
+    font-size: 1rem; /* Adjust the font size as needed */
+    margin-top: 0.5rem; /* Add spacing between "ADVISORY" and "We're almost ready..." using rem units */
 }
+
+/* Additional sentences styles */
 
 .text4 {
     text-align: center;
-    font-size: 1rem; 
-    margin-top: 1rem; 
+    font-size: 1rem; /* Adjust the font size for mobile */
+    margin-top: 1rem; /* Adjust the margin-top for mobile using rem units */
 }
+
 
 .text5,
 .text6,
 .text7 {
     text-align: center;
-    font-size: 1rem; 
-    margin-top: 0.01rem; 
+    font-size: 1rem; /* Adjust the font size as needed */
+    margin-top: 0.01rem; /* Add spacing between the additional sentences using rem units */
 }
 
+/* Additional texts styles */
 .text8 {
     color: #F8CB3F;
     text-align: center;
-    font-size: 0.75rem; 
-    margin-top: 1rem; 
+    font-size: 0.75rem; /* Adjust the font size as needed */
+    margin-top: 1rem; /* Add spacing between the additional texts using rem units */
 }
 
-.text9{
+.text9 {
     color: #F8CB3F;
     text-align: center;
-    font-size: 0.75rem; 
-    margin-top: 0.01rem; 
+    font-size: 0.75rem; /* Adjust the font size as needed */
+    margin-top: 0.01rem; /* Add spacing between the additional texts using rem units */
 }
+
 .text10 {
     color: #F8CB3F;
     text-align: center;
-    font-size: 0.75rem;
-    margin-top: 0.01rem;
+    font-size: 0.75rem; /* Adjust the font size as needed */
+    margin-top: 0.01rem; /* Add spacing between the additional texts using rem units */
 }
 
 footer {
@@ -127,6 +135,7 @@ footer {
     color: white;
 }
 
+/* Media query for mobile */
 @media (max-width: 768px) {
     header {
         text-align: center;
@@ -144,44 +153,44 @@ footer {
     }
     
     .text1 {
-        font-size: 1.8rem; 
+        font-size: 1.8rem; /* Adjust the font size for mobile */
         margin-top: 1rem;
     }
 
     .text2 {
-        font-size: 3rem; 
-        margin-top: -0.75rem; 
+        font-size: 3rem; /* Adjust the font size for mobile */
+        margin-top: -0.75rem; /* Adjust the margin-top for mobile using rem units */
     }
 
     .text3 {
         color: #BFD62F;
-        font-size: 1.2rem; 
-        margin-top: 0.75rem; 
+        font-size: 1.2rem; /* Adjust the font size for mobile */
+        margin-top: 0.75rem; /* Adjust the margin-top for mobile using rem units */
     }
 
     .text4 {
-        font-size: 1rem; 
-        margin-top: 1rem; 
+        font-size: 1rem; /* Adjust the font size for mobile */
+        margin-top: 1rem; /* Adjust the margin-top for mobile using rem units */
     }
 
     
     .text5,
     .text6,
     .text7 {
-        font-size: 1rem; 
-        margin-top: 0.5rem; 
+        font-size: 1rem; /* Adjust the font size for mobile */
+        margin-top: 0.5rem; /* Adjust the margin-top for mobile using rem units */
     }
 
     .text8 {
-        font-size: 1rem; 
-        margin-top: 1.5rem; 
+        font-size: 1rem; /* Adjust the font size for mobile */
+        margin-top: 1.5rem; /* Adjust the margin-top for mobile using rem units */
     }
 
 
     .text9,
     .text10 {
-        font-size: 1rem; 
-        margin-top: 0.5rem; 
+        font-size: 1rem; /* Adjust the font size for mobile */
+        margin-top: 0.5rem; /* Adjust the margin-top for mobile using rem units */
     }
 
     footer {
@@ -189,4 +198,6 @@ footer {
         
         color: white;
     }
+
+
 }
