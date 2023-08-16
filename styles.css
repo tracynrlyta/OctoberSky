@@ -23,6 +23,13 @@ header {
     padding-top: 10px;
 }
 
+.header-image {
+    width: 50%; 
+    height: auto; 
+    display: block; 
+    margin: 0 auto;
+}
+
 /* Top right image styles */
 .top-right-image {
     position: fixed;
@@ -46,10 +53,6 @@ main {
     flex-direction: column;
 }
 
-header img {
-    width: 50%; /* Adjust the logo width as needed */
-}
-
 .background-image {
     display: flex;
     flex-direction: column; 
@@ -59,40 +62,41 @@ header img {
 }
 
 .background-image img {
-    max-width: 100%; 
+    max-width: 20%; 
+    height: auto;
     margin: 3px; 
 
 
 /* Text "Marketing & Sales" styles */
 .text1{
     text-align: center;
-    font-size: 4rem; /* Adjust the font size as needed */
+    font-size: 2rem; /* Adjust the font size as needed */
     font-weight: bold;
-    margin-top: 2rem; /* Add spacing between Image 2 and the text */
+    margin-top: 0.25rem; /* Add spacing between Image 2 and the text */
 }
 
 /* Text "ADVISORY" styles */
 .text2 {
     text-align: center;
-    font-size: 7rem; /* Adjust the font size as needed */
+    font-size: 3.5rem; /* Adjust the font size as needed */
     font-weight: bold;
-    margin-top: -2rem; /* Add spacing between "Marketing & Sales" and "ADVISORY" using rem units */
+    margin-top: -0.75rem; /* Add spacing between "Marketing & Sales" and "ADVISORY" using rem units */
 }
 
 /* Text "We're almost ready, please contact us at:" styles */
 .text3{
     color: #BFD62F;
     text-align: center;
-    font-size: 2rem; /* Adjust the font size as needed */
-    margin-top: 1rem; /* Add spacing between "ADVISORY" and "We're almost ready..." using rem units */
+    font-size: 1rem; /* Adjust the font size as needed */
+    margin-top: 0.5rem; /* Add spacing between "ADVISORY" and "We're almost ready..." using rem units */
 }
 
 /* Additional sentences styles */
 
 .text4 {
     text-align: center;
-    font-size: 1.4rem; /* Adjust the font size for mobile */
-    margin-top: 2rem; /* Adjust the margin-top for mobile using rem units */
+    font-size: 1rem; /* Adjust the font size for mobile */
+    margin-top: 1rem; /* Adjust the margin-top for mobile using rem units */
 }
 
 
@@ -100,44 +104,57 @@ header img {
 .text6,
 .text7 {
     text-align: center;
-    font-size: 1.4rem; /* Adjust the font size as needed */
-    margin-top: 0.5rem; /* Add spacing between the additional sentences using rem units */
+    font-size: 1rem; /* Adjust the font size as needed */
+    margin-top: 0.01rem; /* Add spacing between the additional sentences using rem units */
 }
 
 /* Additional texts styles */
 .text8 {
     color: #F8CB3F;
     text-align: center;
-    font-size: 1.4rem; /* Adjust the font size as needed */
-    margin-top: 2rem; /* Add spacing between the additional texts using rem units */
+    font-size: 0.75rem; /* Adjust the font size as needed */
+    margin-top: 1rem; /* Add spacing between the additional texts using rem units */
 }
 
 .text9 {
     color: #F8CB3F;
     text-align: center;
-    font-size: 1.4rem; /* Adjust the font size as needed */
-    margin-top: 0.5rem; /* Add spacing between the additional texts using rem units */
+    font-size: 0.75rem; /* Adjust the font size as needed */
+    margin-top: 0.01rem; /* Add spacing between the additional texts using rem units */
 }
 
 .text10 {
     color: #F8CB3F;
     text-align: center;
-    font-size: 1.4rem; /* Adjust the font size as needed */
-    margin-top: 0.5rem; /* Add spacing between the additional texts using rem units */
-    margin-bottom: 5rem;
+    font-size: 0.75rem; /* Adjust the font size as needed */
+    margin-top: 0.01rem; /* Add spacing between the additional texts using rem units */
 }
 
 footer {
     text-align: center;
-    padding: 10px;
     color: white;
 }
 
 /* Media query for mobile */
 @media (max-width: 768px) {
+    header {
+        text-align: center;
+    }
+
+    .header-image {
+        width: 20%; 
+        height: auto; 
+    }
+
+    .centered-images img {
+        max-width: 75%; 
+        height: auto;
+        margin: 3px; 
+    }
+    
     .text1 {
         font-size: 1.8rem; /* Adjust the font size for mobile */
-        margin-top: 1.5rem;
+        margin-top: 1rem;
     }
 
     .text2 {
@@ -148,12 +165,12 @@ footer {
     .text3 {
         color: #BFD62F;
         font-size: 1.2rem; /* Adjust the font size for mobile */
-        margin-top: 0.8rem; /* Adjust the margin-top for mobile using rem units */
+        margin-top: 0.75rem; /* Adjust the margin-top for mobile using rem units */
     }
 
     .text4 {
         font-size: 1rem; /* Adjust the font size for mobile */
-        margin-top: 2rem; /* Adjust the margin-top for mobile using rem units */
+        margin-top: 1rem; /* Adjust the margin-top for mobile using rem units */
     }
 
     
@@ -166,7 +183,7 @@ footer {
 
     .text8 {
         font-size: 1rem; /* Adjust the font size for mobile */
-        margin-top: 2rem; /* Adjust the margin-top for mobile using rem units */
+        margin-top: 1.5rem; /* Adjust the margin-top for mobile using rem units */
     }
 
 
@@ -174,6 +191,12 @@ footer {
     .text10 {
         font-size: 1rem; /* Adjust the font size for mobile */
         margin-top: 0.5rem; /* Adjust the margin-top for mobile using rem units */
+    }
+
+    footer {
+        text-align: center;
+        
+        color: white;
     }
 
 
