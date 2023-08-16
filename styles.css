@@ -25,7 +25,7 @@ header {
 
 /* CSS */
 .header-image {
-    width: 18%; 
+    width: 5%; 
     height: auto; 
     display: block; 
     margin: 0 auto;
@@ -62,7 +62,7 @@ main {
 }
 
 .background-image img {
-    max-width: 8%; 
+    max-width: 20%; 
     height: auto;
     margin: 3px; 
 }
