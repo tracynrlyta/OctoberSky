@@ -36,7 +36,7 @@ header {
     position: fixed;
     top: 0;
     right: 0;
-    width: 200%;
+    width: 20%;
     z-index: -1; 
 }
 
@@ -133,12 +133,12 @@ footer {
     }
 
     .header-image {
-        width: 30%; 
+        width: 20%; 
         height: auto; 
     }
 
     .background-image img {
-        max-width: 50%; 
+        max-width: 75%; 
         height: auto;
         margin: 3px; 
     }
