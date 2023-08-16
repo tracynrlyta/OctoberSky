@@ -25,7 +25,7 @@ header {
 
 /* CSS */
 .header-image {
-    width: 5%; 
+    width: 15%; 
     height: auto; 
     display: block; 
     margin: 0 auto;
@@ -33,7 +33,7 @@ header {
 
 
 .top-right-image {
-    position: fixed;
+    position: absolute;
     top: 0;
     right: 0;
     width: 20%;
@@ -41,7 +41,7 @@ header {
 }
 
 .bottom-left-image {
-    position: fixed;
+    position: absolute;
     bottom: 0;
     left: 0;
     width: 20%;
@@ -62,7 +62,7 @@ main {
 }
 
 .background-image img {
-    max-width: 20%; 
+    max-width: 10%; 
     height: auto;
     margin: 3px; 
 }
